@@ -15,5 +15,8 @@ Within our repository, you will find several important files:
 3. **LGP_comp.m**
    - In this file, we illustrate the differences between clear images and blurred images, including Fig. 1 in our work.
 
+4. **im01_ker08.mat**
+   - A image file in the Levin et al. dataset. (Understanding and evaluating blind deconvolution algorithms) 
+
 Our research work has been submitted to ICASSP 2024. We are committed to making our complete code available as soon as our article is accepted by ICASSP(hope it's good enough).
-If our submission is not accepted, the code will remain in a "coming soon" status. :P @_@
+If our submission is not accepted, the complete code will remain in a "coming soon" status. :P @_@
