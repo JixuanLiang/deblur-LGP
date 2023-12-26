@@ -19,4 +19,17 @@ Within our repository, you will find several important files:
    - A image file in the Levin et al. dataset. (Understanding and evaluating blind deconvolution algorithms) 
 
 Our research work has been submitted to ICASSP 2024. We are committed to making our complete code available as soon as our article is accepted by ICASSP(hope it's good enough).
-If our submission is not accepted, the complete code will remain in a "coming soon" status. :P @_@
+If our submission is not accepted, the complete code will remain in a "coming soon" status. :P @_@ 
+
+Good news! Our paper has been accepted by ICASSP 2024. As mentioned before, we open source our code so that everyone can verify and may conduct their own research based on it. If you have any questions, please contact us. The code may be supplemented in the future. (20231226)
+
+**demo_LGP_kohler.m**
+- This file realizes our blind deblurring algorithm on Kohler et al. dataset.
+
+**func_lgp_demo.m**
+- Before running this file, you need to download necessary data at https://webdav.tuebingen.mpg.de/pixel/benchmark4camerashake/#Downl_png_deblur.
+- You need to fill folder location in ... place, so that you can get PSNR values of deblurred results.
+- If you only want image results without evaluating them, you can remove evaluating code containing func_eval.m.
+- If you want other terms like SSIM, try to run eval_image.m from Kohler et al. dataset.
+
+
