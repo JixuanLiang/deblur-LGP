@@ -13,7 +13,7 @@ Bx = conv2(blur_B_tmp, dx, 'valid');
 By = conv2(blur_B_tmp, dy, 'valid');
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%
 [nx_w, ny_w] = gen_partialmat(size(blur_B_w,1),size(blur_B_w,2));
-P_w = LGP_gen_Patchsum_n(size(blur_B_w,1),size(blur_B_w,2),3);
+% P_w = LGP_gen_Patchsum_n(size(blur_B_w,1),size(blur_B_w,2),3);
 % if H == 398 %800
 %     opts.xk_iter = 5;
 % end
